@@ -1,0 +1,26 @@
+.host.portgroup-HostOnly", 
+-->          port = <unset>, 
+-->          vswitch = <vim.host.VirtualSwitch:vim.host.VirtualSwitch-vmnet1>, 
+-->          computedPolicy = (vim.host.NetworkPolicy) {
+-->             security = (vim.host.NetworkPolicy.SecurityPolicy) null, 
+-->             nicTeaming = (vim.host.NetworkPolicy.NicTeamingPolicy) null, 
+-->             offloadPolicy = (vim.host.NetOffloadCapabilities) null, 
+-->             shapingPolicy = (vim.host.NetworkPolicy.TrafficShapingPolicy) null
+-->          }, 
+-->          spec = (vim.host.PortGroup.Specification) {
+-->             name = "HostOnly", 
+-->             vlanId = 0, 
+-->             vswitchName = "vmnet1", 
+-->             policy = (vim.host.NetworkPolicy) {
+-->                security = (vim.host.NetworkPolicy.SecurityPolicy) null, 
+-->                nicTeaming = (vim.host.NetworkPolicy.NicTeamingPolicy) null, 
+-->                offloadPolicy = (vim.host.NetOffloadCapabilities) null, 
+-->                shapingPolicy = (vim.host.NetworkPolicy.TrafficShapingPolicy) null
+-->             }
+-->          }
+-->       }, 
+-->       (vim.host.PortGroup) {
+-->          key = "vim.host.portgroup-NAT", 
+-->          port = <unset>, 
+-->          vswitch = <vim.host.VirtualSwitch:vim.host.VirtualSwitch-vmnet8>, 
+-->          computedPolicy =

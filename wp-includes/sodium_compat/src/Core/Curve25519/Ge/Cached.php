@@ -1,0 +1,37 @@
+vim.host.PhysicalNic.LinkSpeedDuplex) null, 
+-->          validLinkSpecification = <unset>, 
+-->          spec = (vim.host.PhysicalNic.Specification) {
+-->             ip = (vim.host.IpConfig) {
+-->                dhcp = false, 
+-->                ipAddress = "192.168.6.2", 
+-->                subnetMask = "255.255.255.0", 
+-->                ipV6Config = (vim.host.IpConfig.IpV6AddressConfiguration) null
+-->             }, 
+-->             linkSpeed = (vim.host.PhysicalNic.LinkSpeedDuplex) null, 
+-->             enableEnhancedNetworkingStack = <unset>
+-->          }, 
+-->          wakeOnLanSupported = false, 
+-->          mac = "0a:00:27:00:00:00", 
+-->          fcoeConfiguration = (vim.host.FcoeConfig) null, 
+-->          vmDirectPathGen2Supported = <unset>, 
+-->          vmDirectPathGen2SupportedMode = <unset>, 
+-->          resourcePoolSchedulerAllowed = <unset>, 
+-->          resourcePoolSchedulerDisallowedReason = <unset>, 
+-->          autoNegotiateSupported = <unset>, 
+-->          enhancedNetworkingStackSupported = <unset>
+-->       }, 
+-->       (vim.host.PhysicalNic) {
+-->          key = "\DEVICE\{3D2A5235-C240-4DE3-8C2C-0CB5865C7C21}", 
+-->          device = "Intel(R) 82579LM Gigabit Network Connection", 
+-->          pci = "", 
+-->          driver = "", 
+-->          driverVersion = <unset>, 
+-->          firmwareVersion = <unset>, 
+-->          linkSpeed = (vim.host.PhysicalNic.LinkSpeedDuplex) null, 
+-->          validLinkSpecification = <unset>, 
+-->          spec = (vim.host.PhysicalNic.Specification) {
+-->             ip = (vim.host.IpConfig) {
+-->                dhcp = true, 
+-->                ipAddress = "192.168.100.30", 
+-->                subnetMask = "255.255.255.0", 
+-->     
